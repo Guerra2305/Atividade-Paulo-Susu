@@ -1,0 +1,160 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  gap: 1px;
+  grid-auto-rows: minmax(50px, 10px);
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0%; 
+
+}
+
+.one{
+  display: flex;
+  text-align: left;
+  align-self: center;
+  grid-column: 1 ;
+  grid-row: 1;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.two {
+  text-align: left;
+  align-self: center;
+  grid-column: 2 ;
+  grid-row: 1 ;
+  font-weight: bold
+}
+.three {
+  text-align: left;
+  align-self: center;
+  grid-column: 3;
+  grid-row: 1 ;
+  font-weight: bold
+}
+.four {
+  text-align: left;
+  align-self: center;
+  grid-column: 4;
+  grid-row: 1;
+  font-weight: bold
+}
+.five {
+  text-align: left;
+  align-self: center;
+  grid-column: 5;
+  grid-row: 1;
+  font-weight: bold
+}
+.six {
+  text-align: center;
+  align-self: center;
+  grid-column: 6;
+  grid-row: 1;
+  font-weight: bold
+}
+
+.azul{
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/7;
+  grid-row: 2;
+  background-color: #ffff;
+  margin-top: 0px;
+  height: 4em;
+  font-size: 20px;
+}
+
+
+
+.xbox{
+  display: flex;
+  width: 500px;
+  height: 700px;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.imagens{
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: auto 30px auto 30px;
+  justify-items: center;
+  z-index: 9999;
+  color: black;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: bold
+}
+.xboxfrase{
+  display: flex;
+ align-items: center;
+  color: black; 
+  font-size: 25px;
+  font-weight: bold
+}
+
+.imagens img {
+padding: 50px;
+}
+
+.teste {
+display: flex;
+gap: 150px;
+}
+
+.teste{
+background-color: #CFD2CF;
+height: 58em;
+}
+
+.drop2{ 
+  color: black;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(56, 55, 55, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.drop{
+text-align: left;
+  align-self: center;
+  grid-column: 3;
+  grid-row: 1 ;
+  font-weight: bold;
+  
+position: relative;
+display: inline-block;
+color:black
+}
+
+.drop:hover .drop2 {
+display: block;
+color: black;
+}
+
+.prod{
+color:white;
+font-weight: bold;
+}
+
+.box{
+color: black;
+}
